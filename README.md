@@ -70,15 +70,16 @@ Introduzir ao versionamento de código com Git e GitHub.
 ## Instrutora
 <table>
   <tr>
-    <th>
+    <td>
       <img width="80px" align="center" src="https://avatars.githubusercontent.com/elidianaandrade"/>
-    </th>
-    <th>
+    </td>
+    <td align="left">
       <a href="https://github.com/elidianaandrade">
-        Elidiana Andrade
-      </a><br>
+        <span><b>Elidiana Andrade</b></span>
+      </a>
+      <br>
       <span>Desenvolvedora Front-end</span>
-    </th>
+    </td>
   </tr>
   </tr>
 </table>
