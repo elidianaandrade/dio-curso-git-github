@@ -4,7 +4,7 @@
     <span> Versionamento de Código com Git e GitHub</span>
 </h1>
 
-Repositório para armazenar materiais de apoio sobre Git e GitHub do curso **Versionamento de Código com Git e GitHub** da [Digital Innovation One](https://www.dio.me/).
+Repositório desenvolvido para fins educativos, com a disponibilização de materiais de apoio para o curso **Versionamento de Código com Git e GitHub** da [Digital Innovation One](https://www.dio.me/).
 
 [![Link do Curso](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://www.dio.me/) 
 [![Link do Curso](https://img.shields.io/badge/Acesse%20o%20Curso%20na%20Plataforma-E94D5F?style=for-the-badge)](https://www.dio.me/) 
