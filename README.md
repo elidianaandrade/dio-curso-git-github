@@ -94,18 +94,5 @@ Introduzir ao versionamento de código com Git e GitHub.
 - [GITHUB BLOG. Token authentication requirements for Git operations](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
 - [MICROSOFT. Microsoft to acquire GitHub for $7.5 billion](https:/news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/)
 
-### Para saber mais
-- Tech Talk: Linus Torvalds on git: [https://youtu.be/4XpnKHJAok8](https://youtu.be/4XpnKHJAok8)
-- ProGit: [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
-- GitFluence: [https://gitfluence.com/](https://gitfluence.com/)
-- GitIgnore: [https://www.toptal.com/developers/gitignore/](https://www.toptal.com/developers/gitignore/)
-- Chocolatey: [https://community.chocolatey.org/packages/git](https://community.chocolatey.org/packages/git)
-- Markdown: [https://docs.github.com/pt/get-started/writing-on-github](https://docs.github.com/pt/get-started/writing-on-github)
-- My Octocat: [https://myoctocat.com/](https://myoctocat.com/)
-- GitHub Desktop: [https://desktop.github.com/](https://desktop.github.com/)
-- GitHub Pages: [https://docs.github.com/en/pages/getting-started-with-github-pages](https://docs.github.com/en/pages/getting-started-with-github-pages)
-
-
-
 ##
 <div align="center">Made with 💜 by <a href="https://elidianaandrade.github.io/">EA</a>.</div>
