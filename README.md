@@ -1,10 +1,12 @@
+<div align="right">⭐</div>
+
 <h1>
     <a href="https://www.dio.me/">
      <img align="center" alt="Logo Elidiana Andrade" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
     <span> Versionamento de Código com Git e GitHub</span>
 </h1>
 
-Repositório para armazenar materiais de apoio sobre Git e GitHub do curso **Versionamento de Código com Git e GitHub** da [Digital Innovation One](https://www.dio.me/).
+Repositório para armazenar materiais de apoio sobre Git e GitHub do curso **Versionamento de Código com Git e GitHub** da [Digital Innovation One](https://www.dio.me/), ministrado por @elidianaandrade.
 
 [![Link do Curso](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://www.dio.me/) 
 [![Link do Curso](https://img.shields.io/badge/Acesse%20o%20Curso%20na%20Plataforma-E94D5F?style=for-the-badge)](https://www.dio.me/) 
@@ -17,7 +19,7 @@ Introduzir ao versionamento de código com Git e GitHub.
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
 <br>
 
-## Etapas
+## Percurso
 <table>
   <thead>
     <tr>
@@ -66,7 +68,6 @@ Introduzir ao versionamento de código com Git e GitHub.
   </tbody>
   <tfoot></tfoot>
 </table>
-<br>
 
 ## Referências
 - [GIT. Documentation](https://git-scm.com/doc)
@@ -88,8 +89,8 @@ Introduzir ao versionamento de código com Git e GitHub.
 - GitHub Desktop: [https://desktop.github.com/](https://desktop.github.com/)
 - GitHub Pages: [https://docs.github.com/en/pages/getting-started-with-github-pages](https://docs.github.com/en/pages/getting-started-with-github-pages)
 
+
 <br>
 
----
-
-<div align="right">Made with 💜 by <a href="https://elidianaandrade.github.io/">EA</a>.</div>
+##
+<div align="center">Made with 💜 by <a href="https://elidianaandrade.github.io/">EA</a>.</div>
