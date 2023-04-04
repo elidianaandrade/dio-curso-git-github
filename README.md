@@ -20,17 +20,17 @@ Introduzir ao versionamento de código com Git e GitHub.
 ## Percurso
 <table>
   <thead>
-    <tr>
+    <tr align="left">
       <th>Nº</th>
       <th>Etapas</th>
       <th>Materiais de Apoio</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody align="left">
     <tr>
       <td>01</td>
       <td>Visão Geral do Curso e Ferramentas</td>
-      <td>
+      <td align="center">
         <a href="">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
         </a>
@@ -39,7 +39,7 @@ Introduzir ao versionamento de código com Git e GitHub.
     <tr>
       <td>02</td>
       <td>Instalação; Configuração e Autenticação</td>
-      <td>
+      <td align="center">
         <a href="">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
         </a>
@@ -48,7 +48,7 @@ Introduzir ao versionamento de código com Git e GitHub.
     <tr>
       <td>03</td>
       <td>Primeiros Passos com Git e GitHub</td>
-      <td>
+      <td align="center">
         <a href="">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
         </a>
@@ -57,7 +57,7 @@ Introduzir ao versionamento de código com Git e GitHub.
     <tr>
       <td>04</td>
       <td>Dicas e Materiais de Apoio</td>
-      <td>
+      <td align="center">
         <a href="">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
         </a>
