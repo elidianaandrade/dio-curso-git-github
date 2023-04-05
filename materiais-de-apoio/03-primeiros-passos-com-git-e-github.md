@@ -5,3 +5,7 @@
 </h1>
 
 ## Primeiros Passos com Git e GitHub
+
+
+##
+<div align="center">Made with 💜 by <a href="https://elidianaandrade.github.io/">EA</a>.</div>
