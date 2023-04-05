@@ -19,13 +19,13 @@
 ### Instalando o Git no Linux (Ubuntu)
 - Confira a doc.: < https://git-scm.com/download/linux >;
 - Instale a última versão estável do Git:
-    ```
+    ```bash
     # add-apt-repository ppa:git-core/ppa
     ```
-    ```
+    ```bash
     # apt update
     ```
-    ```
+    ```bash
     # apt install git
     ```
 ##
@@ -37,5 +37,21 @@
     ```
     $ brew install git
     ```
+##
+
+### Configurando o Git
+```bash
+$ git config --list
+```
+
+#### Configurando seu nome de usuário e e-mail (globalmente):
+```bash
+$ git config --global user.name "Nome Sobrenome"
+$ git config --global user.email seuemail@email.com
+```
+#### Configurando o nome da Branch Padrão:
+```bash
+$ git config --global init.defaultBranch main
+```
 ##
 <div align="center">Made with 💜 by <a href="https://elidianaandrade.github.io/">EA</a>.</div>
