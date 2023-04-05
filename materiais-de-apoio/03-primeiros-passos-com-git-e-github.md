@@ -6,6 +6,10 @@
 
 ## Primeiros Passos com Git e GitHub
 
+### Criando e Clonando Repositórios
+Existem duas formas de obter um repositório Git na sua máquina:
+1. Transformando um diretório local que não está sob controle de versão, num repositório Git;
+2. Clonando um repositório Git existente.
 
 ##
 <div align="center">Made with 💜 by <a href="https://elidianaandrade.github.io/">EA</a>.</div>
