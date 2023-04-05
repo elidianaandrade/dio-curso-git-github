@@ -30,4 +30,4 @@ $ git config --global --unset alias.st
 - GitHub Pages: [https://docs.github.com/en/pages/getting-started-with-github-pages](https://docs.github.com/en/pages/getting-started-with-github-pages)
 
 ##
-<div align="center">Made with 💜 by <a href="https://elidianaandrade.github.io/">EA</a>.</div>
+<div align="center">Made with 💜 by <a href="https://github.com/elidianaandrade">EA</a>.</div>
