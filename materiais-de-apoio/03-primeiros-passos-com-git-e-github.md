@@ -23,4 +23,4 @@ Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou c
     ```
     
 ##
-<div align="center">Made with 💜 by <a href="https://elidianaandrade.github.io/">EA</a>.</div>
+<div align="center">Made with 💜 by <a href="https://github.com/elidianaandrade">EA</a>.</div>
