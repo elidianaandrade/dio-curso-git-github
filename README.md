@@ -81,9 +81,7 @@ Introduzir ao versionamento de código com Git e GitHub.
       <span>Desenvolvedora Front-end</span>
     </td>
   </tr>
-  </tr>
 </table>
-
 
 ## Referências
 - [GIT. Documentation](https://git-scm.com/doc)
