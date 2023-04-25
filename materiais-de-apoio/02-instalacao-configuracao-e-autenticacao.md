@@ -53,5 +53,6 @@ $ git config --global user.email seuemail@email.com
 ```bash
 $ git config --global init.defaultBranch main
 ```
+
 ##
-<div align="center">Made with 💜 by <a href="https://github.com/elidianaandrade">EA</a>.</div>
+<div align="center">Feito com 💙 por <a href="https://github.com/elidianaandrade">Eli</a>.</div>
