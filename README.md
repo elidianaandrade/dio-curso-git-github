@@ -3,85 +3,40 @@
      <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
     <span> Versionamento de Código com Git e GitHub</span>
 </h1>
+Contribua no diretório "Community", criando um README de perfil contendo informações sobre você que deseja compartilhar com a comunidade. Para isso, você pode inserir: badges diminuir suas habilidades; cards com suas estatísticas no GitHub e projetos que criaram, colaboraram ou que desejam que outras pessoas colaborem. Além disso, você pode inserir também links para seus desafios de projeto e artigos na plataforma da Digital Innovation One .
+Inspire-se consultando os exemplos na pasta community, confira alguns utilitários na massa utilse use sua criatividade para criar o seu 😊💙.
 
-Repositório desenvolvido para fins educativos, com a disponibilização de materiais de apoio para o curso **Versionamento de Código com Git e GitHub** da [Digital Innovation One](https://www.dio.me/).
+Instruções (PT/BR)
+Faça um Fork deste repositório;
+Clonar localmente: git clone https://github.com/SEUUSERNAME/dio-lab-open-source.git;
+Adicione o upstream remoto para manter seu repositório local atualizado: git remote add upstream https://github.com/elidianaandrade/dio-lab-open-source.git;
+Utilize o comando git pull upstream mainpara baixar e mesclar as alterações no seu repositório local com base na branch maindeste repositório original de onde você fez o fork, ou git fetch upstream mainpara baixar sem mesclar. Veja mais em: Primeiros Passos com Git e GitHub .
 
-[![Link do Curso](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://web.dio.me/course/versionamento-de-codigo-com-git-e-github/learning/f3cbaa66-efbd-4c25-842e-2069c188c066) 
-[![Link do Curso](https://img.shields.io/badge/Acesse%20o%20Curso%20na%20Plataforma-E94D5F?style=for-the-badge)](https://web.dio.me/course/versionamento-de-codigo-com-git-e-github/learning/f3cbaa66-efbd-4c25-842e-2069c188c066) 
+Crie uma nova filial e nomeie como feat/community/seunomedeusuario: git checkout -b feat/community/seunomedeusuario;
+Exemplo:git checkout -b feat/community/elidianaandrade
 
-## Objetivo
-Introduzir ao versionamento de código com Git e GitHub.
+Dentro da pasta community, crie um arquivo em Markdown (extensão .md) e nomeie com o mesmo nome do seu usuário no GitHub;
+Exemplo:elidianaandrade.md
 
-## Ferramentas
-[![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
-<br>
+Desenvolva seu perfil. Para isso, você pode ver exemplos na pasta communitye adicionar alguns dos presentes importantes na pasta utils;
+Observação: Use os outros exemplos como inspiração e não cópia.
 
-## Percurso
-<table>
-  <thead>
-    <tr align="left">
-      <th>Nº</th>
-      <th>Etapas</th>
-      <th>Materiais de Apoio</th>
-    </tr>
-  </thead>
-  <tbody align="left">
-    <tr>
-      <td>01</td>
-      <td>Visão Geral do Curso e Ferramentas</td>
-      <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/01-visao-geral-do-curso-e-ferramentas.md">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>Instalação, Configuração e Autenticação</td>
-      <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/02-instalacao-configuracao-e-autenticacao.md">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>Primeiros Passos com Git e GitHub</td>
-      <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-30A3DC?style=for-the-badge">
-        </a>
-      </td>    
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>Dicas e Materiais de Apoio</td>
-      <td align="center">
-        <a href="https://github.com/elidianaandrade/dio-curso-git-github/blob/main/materiais-de-apoio/04-dicas-e-materiais-de-apoio.md">
-           <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Material-E94D5F?style=for-the-badge">
-        </a>
-      </td>    
-    </tr>
-  </tbody>
-  <tfoot></tfoot>
-</table>
+Adicione suas alterações à "área de teste" com o comando git add community/seunomedeusuario.md;
+Crie um commit e adicione a mensagem diminuindo a adição do seu perfil git commit -m"feat: add seunomedeusuario profile";
+Envie as alterações para o seu repositório remoto git push origin feat/community/seunomedeusuario;
+Crie um Pull Request .
 
-## Instrutora
-<table>
-  <tr>
-    <td>
-      <img width="80px" align="center" src="https://avatars.githubusercontent.com/elidianaandrade"/>
-    </td>
-    <td align="left">
-      <a href="https://github.com/elidianaandrade">
-        <span><b>Elidiana Andrade</b></span>
-      </a>
-      <br>
-      <span>Desenvolvedora Front-end</span>
-    </td>
-  </tr>
-</table>
+## C0nverção de Commits
+
+ Tipos de Commits | Descrição
+------------------|----------------------------------------------------------------|
+| feat            | Adcionauma nova funcionalidade ao projeto                      |
+| fix             | Corrigi um bug ou problema no projeto                          |
+| docs            | Altera a documentação doproje Ex:README comentador no código   |
+| style           | Realiza mundança na aparencia sem altra a funcionalidade       |
+| refactor        | Realiza mundança no código que não alteram a funcionalidade    |
+| test            | Adciona ou modificatestes no projetos                          |
+
 
 ## Referências
 - [GIT. Documentation](https://git-scm.com/doc)
