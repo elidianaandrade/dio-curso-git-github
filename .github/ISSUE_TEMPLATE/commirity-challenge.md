@@ -2,8 +2,8 @@
 name: Commirity challenge
 about: Crie um issue sobre o Desafio Proposto à comunidade
 title: 'Comunidade '
-labels: Comunidade dos Códigos
-assignees: ''
+labels: Comunidade dos Códigos, good first issue
+assignees: JBS387214
 
 ---
 
