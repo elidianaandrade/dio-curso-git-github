@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Versionamento de Código com Git e GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Versionamento de Código com Git e GitHub</h1>
+        <p>Seu caminho para o controle de versão eficiente.</p>
+    </header>
+
+    <section class="content">
+        <div class="section">
+            <h2>Visão Geral do Meu Aprendizado</h2>
+            <p>Minha jornada de aprendizado foi incrível! Durante o curso, mergulhei nos fundamentos do versionamento de
+                código com Git e GitHub, descobrindo como controlar e colaborar em projetos de desenvolvimento de
+                software de forma eficaz.</p>
+            <p>E a melhor parte? Utilizei o meu conhecimento para criar este site como uma prova prática do que
+                aprendemos no curso da Dio. Fico empolgado com o resultado e a oportunidade de compartilhar meu
+                aprendizado com vocês. Simplesmente incrível, não é?</p>
+
+        </div>
+
+        <div class="section">
+            <h2>Instalação e Configuração</h2>
+            <p>Aprenda a instalar o Git em diferentes sistemas operacionais e configure-o para começar a trabalhar com
+                controle de versão.</p>
+
+            <h3>Instalando o Git no Windows</h3>
+            <p>Acesse <a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a>;</p>
+            <p>Faça o download do instalador e execute;</p>
+            <p>Aceite a licença e clique em “Next”, e siga configurando como desejar¹ e clicando em “Next”;</p>
+            <p>Finalize clicando em “Install”, e “Finish”.</p>
+            <p>¹Em "Select Components“, deixe as opções “Git Bash Here” e “Git GUI Here” marcadas.</p>
+
+            <h3>Instalando o Git no Linux (Ubuntu)</h3>
+            <p>Confira a doc.: <a href="https://git-scm.com/download/linux">https://git-scm.com/download/linux</a>;</p>
+            <p>Instale a última versão estável do Git:</p>
+            <pre><code># add-apt-repository ppa:git-core/ppa
+# apt update
+# apt install git</code></pre>
+
+            <h3>Instalando o Git no macOS</h3>
+            <p>Confira a doc.: <a href="https://git-scm.com/download/mac">https://git-scm.com/download/mac</a>;</p>
+            <p>Instale o Homebrew: <a href="https://brew.sh/">https://brew.sh/</a>;</p>
+            <p>Instale o Git:</p>
+            <pre><code>$ brew install git</code></pre>
+
+            <h3>Configurando o Git</h3>
+            <pre><code>$ git config --list</code></pre>
+            <p>Configurando seu nome de usuário e e-mail (globalmente):</p>
+            <pre><code>$ git config --global user.name "Nome Sobrenome"
+$ git config --global user.email seuemail@email.com</code></pre>
+            <p>Configurando o nome da Branch Padrão:</p>
+            <pre><code>$ git config --global init.defaultBranch main</code></pre>
+        </div>
+
+        <div class="section">
+            <h2>Primeiros Passos com Git e GitHub</h2>
+            <p>Explore como criar repositórios, clonar projetos existentes e realizar operações básicas no Git.</p>
+
+            <h3>Clonando um Repositório do GitHub</h3>
+            <p>Para clonar um repositório do GitHub no Git, siga os passos abaixo:</p>
+            <ol>
+                <li>Abra o terminal.</li>
+                <li>Navegue até o diretório onde deseja clonar o repositório.</li>
+                <li>Use o comando:
+                    <pre><code>git clone https://github.com/username/nome-do-repositorio.git</code></pre>
+                </li>
+                <li>O repositório será clonado para o seu sistema local.</li>
+            </ol>
+
+            <h3>Enviando Atualizações para o Repositório</h3>
+            <p>Depois de fazer alterações no código, siga estes passos para enviar as atualizações:</p>
+            <ol>
+                <li>Use o comando <code>git add</code> para adicionar as alterações ao índice.</li>
+                <li>Use o comando <code>git commit</code> para confirmar as alterações.</li>
+                <li>Use o comando <code>git push</code> para enviar as atualizações para o repositório remoto.</li>
+            </ol>
+            <h3>Clonando um Repositório do GitHub</h3>
+            <p>Para clonar um repositório do GitHub no Git, siga os passos abaixo:</p>
+            <ol>
+                <li>Abra o terminal.</li>
+                <li>Navegue até o diretório onde deseja clonar o repositório. Você pode usar o comando <code>cd</code>
+                    para navegar entre os diretórios.</li>
+                <li>Visite o repositório do GitHub que deseja clonar em seu navegador e copie a URL do repositório. A
+                    URL será algo como: <code>https://github.com/username/nome-do-repositorio.git</code></li>
+                <li>No terminal, use o comando <code>git clone</code> seguido da URL do repositório que você copiou
+                    anteriormente. Cole a URL após o comando <code>git clone</code>:
+                    <pre><code>git clone https://github.com/username/nome-do-repositorio.git</code></pre>
+                </li>
+                <li>O Git irá clonar o repositório para o diretório local. Você verá uma mensagem indicando que o clone
+                    foi concluído.</li>
+            </ol>
+            <p>Agora você tem uma cópia local do repositório em seu sistema. Você pode começar a trabalhar nele, fazer
+                alterações e enviar atualizações de volta para o repositório no GitHub.</p>
+
+        </div>
+
+        <div class="section">
+            <h2>Dicas e Materiais de Apoio</h2>
+            <p>Descubra dicas úteis, recursos de aprendizado e ferramentas relacionadas ao Git e GitHub.</p>
+
+            <h3>Git Aliases: Adicionando apelidos para os comandos do Git</h3>
+            <p>Exemplo: Criando um alias para o comando status:</p>
+            <pre><code>$ git config --global alias.st status</code></pre>
+            <p>Agora podemos utilizar o comando <code>git st</code> para acionar o <code>git status</code>.</p>
+            <p>Para remover o alias que criamos, utilizamos o seguinte comando:</p>
+            <pre><code>$ git config --global --unset alias.st</code></pre>
+            <!-- Seção de Benefícios do Git -->
+<section class="section" id="beneficios-do-git">
+    <h2>Benefícios do Git</h2>
+    <ol>
+        <li>
+            <strong>Controle de Versão:</strong> O Git permite que você controle todas as versões do seu código.
+        </li>
+        <li>
+            <strong>Colaboração:</strong> Facilita a colaboração em equipe, permitindo que vários desenvolvedores trabalhem no mesmo projeto.
+            <pre><code># Clone um repositório para colaborar
+git clone https://github.com/usuario/projeto.git</code></pre>
+        </li>
+        <li>
+            <strong>Rastreamento de Alterações:</strong> Registra todas as mudanças feitas no código, quem fez e quando.
+            <pre><code># Verifique o histórico de commits
+git log</code></pre>
+        </li>
+        <li>
+            <strong>Branches:</strong> Você pode criar branches para desenvolver recursos separadamente e mesclá-los quando estiverem prontos.
+            <pre><code># Crie uma nova branch
+git branch nome-da-branch
+
+# Mude para a nova branch
+git checkout nome-da-branch</code></pre>
+        </li>
+        <li>
+            <strong>Resolução de Conflitos:</strong> Ajuda a resolver conflitos quando várias pessoas fazem alterações no mesmo arquivo.
+            <pre><code># Resolva conflitos durante um merge
+git merge branch-de-origem</code></pre>
+        </li>
+        <li>
+            <strong>Backup:</strong> Mantém uma cópia de backup do seu código no repositório remoto.
+            <pre><code># Envie suas alterações para o repositório remoto
+git push origin nome-da-branch</code></pre>
+        </li>
+        <li>
+            <strong>Rastreamento de Problemas:</strong> Integra-se facilmente com plataformas de rastreamento de problemas, como o GitHub Issues.
+            <pre><code># Referencie problemas nos commits
+git commit -m "Resolve #123: Corrige bug no login"</code></pre>
+        </li>
+        <li>
+            <strong>História de Revisões:</strong> Permite revisar facilmente o histórico de revisões do código.
+            <pre><code># Veja as alterações feitas em um commit específico
+git show hash-do-commit</code></pre>
+        </li>
+        <li>
+            <strong>Distribuído:</strong> Trabalha de forma distribuída, o que significa que cada desenvolvedor tem uma cópia completa do repositório.
+        </li>
+        <li>
+            <strong>Integração com Ferramentas de CI/CD:</strong> Pode ser integrado a ferramentas de integração contínua (CI) e entrega contínua (CD) para automatizar testes e implantações.
+        </li>
+    </ol>
+    <section>
+        <h2>Passos para colocar o seu site online e mostra para comunidade</h2>
+        <h2>Passo 1: Crie um Repositório no GitHub</h2>
+        <p>Para hospedar seu site no GitHub, você primeiro precisa criar um repositório no GitHub. Siga os passos abaixo:</p>
+        <ol>
+            <li>Acesse o GitHub em <a href="https://github.com">https://github.com</a>.</li>
+            <li>Entre na sua conta ou crie uma nova, se necessário.</li>
+            <li>Clique no ícone "+" no canto superior direito e escolha "Novo repositório".</li>
+            <li>Preencha o nome do repositório, escolha a visibilidade e selecione a opção "Incluir um arquivo README".</li>
+            <li>Clique em "Criar repositório".</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Passo 2: Crie uma Página HTML</h2>
+        <p>Para adicionar o conteúdo do seu site, você precisa criar uma página HTML. Siga os passos abaixo:</p>
+        <ol>
+            <li>Crie uma página HTML (por exemplo, "index.html") que contenha o conteúdo do seu site.</li>
+            <li>Adicione o código HTML ao arquivo.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Passo 3: Faça o Commit e o Push para o GitHub</h2>
+        <p>Para enviar seu site para o GitHub, siga os passos abaixo:</p>
+        <ol>
+            <li>Abra o terminal ou prompt de comando no diretório do seu projeto.</li>
+            <li>Inicialize um repositório Git, adicione os arquivos e faça o commit.</li>
+            <li>Conecte seu repositório local ao repositório remoto do GitHub.</li>
+            <li>Faça o push do código para o GitHub.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Passo 4: Habilite o GitHub Pages</h2>
+        <p>Para tornar seu site público, siga os passos abaixo:</p>
+        <ol>
+            <li>Acesse as configurações do seu repositório no GitHub.</li>
+            <li>Role para baixo até a seção "GitHub Pages".</li>
+            <li>No menu suspenso "Branch", escolha a branch onde está o código do seu site.</li>
+            <li>Clique em "Salvar".</li>
+        </ol>
+    </section>
+</section>
+
+
+            <h3>Recursos e Links Úteis</h3>
+            <ul>
+                <li>Tech Talk: Linus Torvalds on git: <a
+                        href="https://youtu.be/4XpnKHJAok8">https://youtu.be/4XpnKHJAok8</a></li>
+                <li>ProGit: <a href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a></li>
+                <li>GitFluence: <a href="https://gitfluence.com/">https://gitfluence.com/</a></li>
+                <li>GitIgnore: <a
+                        href="https://www.toptal.com/developers/gitignore/">https://www.toptal.com/developers/gitignore/</a>
+                </li>
+                <li>GitHub Desktop: <a href="https://desktop.github.com/">https://desktop.github.com/</a></li>
+                <li>GitHub Pages: <a
+                        href="https://docs.github.com/en/pages/getting-started-with-github-pages">https://docs.github.com/en/pages/getting-started-with-github-pages</a>
+                </li>
+            </ul>
+            
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy;Feito por Wallace Tadeu</p>
+    </footer>
+</body>
+
+</html>

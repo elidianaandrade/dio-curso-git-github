@@ -1,0 +1,83 @@
+/* Reset de estilos básicos */
+body, h1, h2, p, ol, ul, li, pre, code {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0074d9;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #0074d9;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #0074d9;
+    margin-bottom: 0.5rem;
+}
+
+p, ol, ul {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+ol, ul {
+    padding-left: 1.5rem;
+}
+
+code, pre {
+    font-family: Menlo, monospace;
+    font-size: 0.9rem;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+
+a {
+    color: #0074d9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #555;
+}
+
