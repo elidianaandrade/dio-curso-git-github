@@ -31,3 +31,4 @@ $ git config --global --unset alias.st
 
 ##
 <div align="center">Feito com 💙 por <a href="https://github.com/elidianaandrade">Eli</a>.</div>
+<p>Jaqueline Tavares curso git e github<p>
