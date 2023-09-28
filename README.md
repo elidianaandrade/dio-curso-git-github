@@ -6,6 +6,8 @@
 Contribua no diretório "Community", criando um README de perfil contendo informações sobre você que deseja compartilhar com a comunidade. Para isso, você pode inserir: badges diminuir suas habilidades; cards com suas estatísticas no GitHub e projetos que criaram, colaboraram ou que desejam que outras pessoas colaborem. Além disso, você pode inserir também links para seus desafios de projeto e artigos na plataforma da Digital Innovation One .
 Inspire-se consultando os exemplos na pasta community, confira alguns utilitários na massa utilse use sua criatividade para criar o seu 😊💙.
 
+Eu aprendi muito com essa aula.
+
 Instruções (PT/BR)
 Faça um Fork deste repositório;
 Clonar localmente: git clone https://github.com/SEUUSERNAME/dio-lab-open-source.git;
