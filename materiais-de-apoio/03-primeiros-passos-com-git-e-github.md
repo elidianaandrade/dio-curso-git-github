@@ -51,26 +51,37 @@ $ git reset --hard
 ### Enviando as alterações do repositório local para o repositório remoto
 
 Após fazer suas alterações locais e confirmá-las com os commits apropriados, você pode enviá-las para o repositório remoto no GitHub. Aqui está o procedimento básico para fazer isso:
+
 1. Verifique o status dos seus arquivos:
+    
     ```bash
     $ git status
     ```
+
 2. Adicione os arquivos que você deseja enviar:
+
     ```bash
-   $ git add .
+    $ git add .
     ```
-Ou você pode adicionar arquivos específicos com:
+
+    Ou você pode adicionar arquivos específicos com:
+
     ```bash
+    $ git add nome-do-arquivo
     ```
-   $ git add nome-do-arquivo
+
 3. Confirme as alterações:
-     ```bash
-     $ git commit -m "Descrição das alterações feitas"
-     ```
+
+    ```bash
+    $ git commit -m "Descrição das alterações feitas"
+    ```
+
 4. Envie as alterações para o repositório remoto:
+
     ```bash
     $ git push origin master
     ```
+
 **Nota:** Se você estiver trabalhando em uma branch diferente de **'master'**, substitua **'master'** pelo nome da branch em que você está trabalhando.
 
 E é isso! Seu código agora deve estar atualizado no GitHub. Lembre-se de sempre puxar as atualizações do repositório remoto antes de fazer alterações locais para evitar conflitos.
