@@ -1,0 +1,1 @@
+[![card](https://github-readme-stats.vercel.app/api?username=ehfrodrigues&theme=default)](https://github.com/ehfrodrigues)
